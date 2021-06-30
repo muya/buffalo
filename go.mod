@@ -3,8 +3,8 @@ module github.com/gobuffalo/buffalo
 go 1.13
 
 require (
+	cloud.google.com/go v0.36.0 // indirect
 	github.com/BurntSushi/toml v0.3.1
-	github.com/cockroachdb/cockroach-go v0.0.0-20190925194419-606b3d062051 // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.9.0
 	github.com/gobuffalo/attrs v1.0.0
@@ -12,6 +12,7 @@ require (
 	github.com/gobuffalo/clara v0.10.1
 	github.com/gobuffalo/envy v1.9.0
 	github.com/gobuffalo/events v1.4.1
+	github.com/gobuffalo/fizz v1.9.8 // indirect
 	github.com/gobuffalo/flect v0.2.0
 	github.com/gobuffalo/genny v0.6.0
 	github.com/gobuffalo/github_flavored_markdown v1.1.0
@@ -30,7 +31,6 @@ require (
 	github.com/google/go-cmp v0.4.0
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/sessions v1.2.0
-	github.com/jackc/pgconn v1.3.1 // indirect
 	github.com/karrick/godirwalk v1.15.2
 	github.com/markbates/grift v1.5.0
 	github.com/markbates/oncer v1.0.0
@@ -40,6 +40,7 @@ require (
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/monoculum/formam v0.0.0-20191229172733-952f0766a724
 	github.com/sirupsen/logrus v1.4.2
+	github.com/spf13/afero v1.2.1 // indirect
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.6.2
